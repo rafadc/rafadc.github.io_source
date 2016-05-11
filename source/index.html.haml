@@ -1,0 +1,28 @@
+.row
+  .seven.columns
+    = image_tag "me.jpg", class: 'portrait'
+  .five.columns.personal-text
+    %h1 Rafa de Castro
+    %h2 Software developer
+    %p Welcome to my small home in the internet. Take a seat and grab some drinks. I hope you enjoy it!
+    .links
+      %div
+        = link_to "My blog", "http://joy.pm"
+      %div
+        = link_to "My emacs configuration", "https://github.com/rafadc/emacs.d/blob/master/settings.org"
+      %div
+        = link_to "Software Craftsmanship Madrid", "http://www.meetup.com/madswcraft/"
+
+    .social-links
+      %span
+        = link_to "http://twitter.com/rafadc" do
+          = image_tag "socio-twitter.png"
+      %span
+        = link_to "http://github.com/rafadc" do
+          = image_tag "socio-github.png"
+      %span
+        = link_to "https://es.linkedin.com/in/rafadecastro" do
+          = image_tag "socio-linkedin.png"
+      %span
+        = link_to "https://www.youtube.com/channel/UCkkuFpY_Y5Q6m0GcG4ojAiw" do
+          = image_tag "socio-youtube.png"
