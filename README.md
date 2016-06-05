@@ -1,3 +1,9 @@
-Just my personal site.
+# rafadecastro.com
+Just my tiny personal site.
 
-This is built into /build folder which can be deployed in [this repository](https://github.com/rafadc/rafadc.github.io).
+
+# Building
+
+This site is built into /build folder which can be deployed in [this repository](https://github.com/rafadc/rafadc.github.io).
+
+I've included a publish.sh script to help.
