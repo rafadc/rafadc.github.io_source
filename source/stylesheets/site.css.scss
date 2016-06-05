@@ -10,7 +10,6 @@ body {
 .black-row {
     background: black;
     height: 20px;
-    width: 100px;
 }
 
 img.portrait {
@@ -42,6 +41,6 @@ a:visited {
     color: black;
 }
 
-a:hover {
+a:hover a:visited:hover {
     color: grey;
 }
